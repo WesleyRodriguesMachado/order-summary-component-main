@@ -5,11 +5,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-size:cover ;
 }
 
 .container{
     background-color: hsl(225, 100%, 98%);
-
+    color: hsl(224, 23%, 55%);
     max-width: 450px;
     border-radius: 18px;
     display: flex;
@@ -34,7 +35,7 @@ body{
 }
 
 .container .content p{
-    padding: 15px 60px 10px 60px;
+    padding: 0px 60px 10px 60px;
     text-align: center;
     line-height: 25px;
     
@@ -47,8 +48,8 @@ body{
     align-items: center;
     justify-content: space-between;
     border-radius: 1rem;
-   
-    width: 90%;
+    height: 100px;
+    width: 360px;
     margin: 2rem 0;
    
 }
@@ -80,8 +81,32 @@ body{
 
 .change{
     padding-right:30px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 100px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+   
+   
+}
+
+.cancel-order{
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
     
 
 
